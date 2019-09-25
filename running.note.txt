@@ -26,3 +26,9 @@ Node Architecture
 Creating first app
 - Create a function to console log a text and invokeit see file initial app
 - log window and global objects to see if they work.
+
+Global object
+- In node there are many objects available from global object they are explained in app.js file
+- User defined variables are not derived from global object.
+- In javascript even user defined object are derived from window object.
+
