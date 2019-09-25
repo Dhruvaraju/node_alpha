@@ -22,3 +22,7 @@ Node Architecture
   requests. If data is ready for a request it will be available in event queue, node monitors eventqueue and processes the request.
 - Use Node for I/O intense applications like data transfering and network.
 - Do not use node for CPU intense operations.
+
+Creating first app
+- Create a function to console log a text and invokeit see file initial app
+- log window and global objects to see if they work.
