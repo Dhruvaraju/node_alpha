@@ -33,4 +33,7 @@ Initial learning node js
 ### Global object
 - In node there are many objects available from global object they are explained in app.js file
 - User defined variables are not derived from global object.
-- In javascript even user defined object are derived from window object.
+- Javascript's global object is window. Every other object is derived from window. consider the time related functions setTimeout(), clearTimeout(), setInterval(), clearInterval(). these can be invoked as
+ window.setTimeout().
+- when we define a user defined variable like var message the same can be used as window.message, as javascript scope is window.
+- But the same message variable will not be attached to global because node is split into modules and have different scope. If we try to console.log global.message it will return undefined.
